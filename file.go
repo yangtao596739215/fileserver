@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	addr := flag.String("addr", ":8080", "listen addr defalut :8080")
+	addr := flag.String("addr", ":8888", "listen addr defalut :8080")
 	flag.Parse()
 
 	p, _ := os.Getwd()

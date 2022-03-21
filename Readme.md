@@ -1,3 +1,8 @@
+## 功能说明
+```
+把执行命令的目录以http的方式暴露出来，可以通过浏览器下载目录上的文件
+```
+
 ## 使用说明
 go run file.go -addr=:9999
 
@@ -12,7 +17,7 @@ go install github.com/yangtao596739215/fileserver && fileserver -addr :8080
 -addr=:8089 
 ```
 
-说明
+## 注意事项
 ```
 go 1.16以上才支持go install
 go install 的路径是 GOBIN，如果没设置则是GOROOT/bin
